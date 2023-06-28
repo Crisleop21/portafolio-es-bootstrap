@@ -1,7 +1,6 @@
 /* Barra de navegacion */
-
 .navbar {
-  padding: 2rem;
+  /* padding: 2rem; */
   background-color: #f5f6f7;
 }
 
@@ -51,6 +50,8 @@ h1 {
   font-size: 1.1rem;
   margin: 20px;
   margin-bottom: 70px;
+  background-color: #0d6efd;
+  color: white;
 }
 
 .texto-negro {
@@ -81,6 +82,59 @@ h1 {
 .hero-principal h2 {
   font-size: 1.5rem;
   color: #615151;
+}
+
+.iconos-hero-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid #1b1b32;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-hero-sociales i {
+  color: #1b1b32;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-hero-sociales a:hover {
+  background-color: #0d6efd;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.iconos-hero-sociales a:hover i {
+  color: black;
+}
+
+.hero button {
+  color: white;
+  font-weight: bold;
+  background-color: #0d6efd;
+  border: 2px solid white;
+  padding: 1.25rem 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.hero button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero button:hover i {
+  color: black;
 }
 
 /* Sobre mi */
